@@ -4,7 +4,7 @@
 library(raster)
 #vignette("Raster")
 
-dirpath <- "E:/TCS/ImageComparsion/Code"
+dirpath <- "E:/CS/ImageComparsion/Code"
 setwd(dirpath)
 
 
@@ -36,7 +36,11 @@ dim(blueBand2)
 
 #geo correction
 
-x1=blueBand1[2700,4600]
+x1=blueBand1[2701,4601]
 x1
-x2=blueBand2[2700,4600]
+x2=blueBand2[2701,4601]
 x2
+plot(blueBand2)
+drawExtent(show=T,col="red")
+
+extent(blueBand2,)

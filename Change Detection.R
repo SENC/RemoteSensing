@@ -4,7 +4,7 @@
 library(raster)
 #vignette("Raster")
 
-dirpath <- "E:/TCS/ImageComparsion/Code"
+dirpath <- "E:/CS/ImageComparsion/Code"
 setwd(dirpath)
 
 

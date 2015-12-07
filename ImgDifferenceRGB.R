@@ -4,7 +4,7 @@
 library(raster)
 #vignette("Raster")
 
-dirpath <- "E:/TCS/ImageComparsion/Code"
+dirpath <- "E:/CS/ImageComparsion/Code"
 setwd(dirpath)
 
 
@@ -19,7 +19,7 @@ png2 <- brick ("2011.png")
 plotRGB (png2)
 
 plot(png2)
-par(mfrow=c(2,2))
+par(mfrow=c(1,3))
 #R band difference
 Rdiff <- png2[[1]]-png1[[1]]
 #plot(png2[[1]]);plot(png1[[1]]);plot(Rdiff)
